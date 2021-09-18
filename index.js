@@ -43,6 +43,8 @@ function watcher(listener) {
 
 watcher(() => (total = data.price * data.quantity));
 
+// ###########################################################
+
 data.price = 20;
 console.log(total);
 data.quantity = 20;
